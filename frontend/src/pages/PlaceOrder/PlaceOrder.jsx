@@ -118,6 +118,7 @@ const PlaceOrder = () => {
                         <p>COD ( Cash on delivery )</p>
                     </div>
                     {/* <div onClick={() => setPayment("stripe")} className="payment-option">
+{/*                     <div onClick={() => setPayment("stripe")} className="payment-option">
                         <img src={payment === "stripe" ? assets.checked : assets.un_checked} alt="" />
                         <p>Stripe ( Credit / Debit )</p>
                     </div> */}

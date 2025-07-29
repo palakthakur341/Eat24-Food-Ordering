@@ -4,7 +4,7 @@ import axios from "axios";
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
-    const url = "http://localhost:4000";
+    const url = "https://eat24-food-ordering-backend.onrender.com";
     const [food_list, setFoodList] = useState([]);  // lowercase
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState("");
